@@ -21,10 +21,12 @@
     }
 </script>
 
-<main class="flex flex-col space-y-2">
-    <h1 class="text-3xl font-bold underline">Stable Diffusion!</h1>
-    <p>Example made wiith <a target="_blank" rel="noopener noreferrer" class="underline" href="https://github.com/semicognitive/sveltekit-modal/tree/main">sveltekit-modal</a>.</p>
-
+<main class="flex flex-col space-y-4">
+    <div class="flex flex-col space-y-2">
+        <h1 class="text-3xl font-bold underline">Stable Diffusion!</h1>
+        <p>Example made for <i><b>Intelligent Svelte</b></i>.</p>
+    </div>
+    
     <form method="POST" action="/api/prompt" use:enhance={api_prompt} class="flex flex-col space-y-2 md:min-w-[28rem] lg:min-w-[32rem] xl:min-w-[36rem] max-w-6xl">
         {#if loading}
             <div class="flex flex-col items-center justify-center w-full aspect-square border-2 border-neutral-300 border-dashed rounded-lg cursor-pointer bg-neutral-50 text-transparent">
