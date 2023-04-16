@@ -8,4 +8,4 @@ See the code for the [example `+server.py` route here](src/routes/api/summarize/
 
 ## This example 
 - Includes a frontend written in [TailwindCSS](https://tailwindcss.com)
-- Has a `api/summarize` endpoint which takes a PDF upload, and summarizes it with the OpenAI Api! Written in Python with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
+- Has a `api/prompt` endpoint which takes a prompt, and generates and image with Stable Diffusion!! Written in Python with [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
