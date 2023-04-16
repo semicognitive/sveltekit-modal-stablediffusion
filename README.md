@@ -2,9 +2,9 @@
 
 # sveltekit-modal-stablediffusion
 
-An example SvelteKit project using https://github.com/semicognitive/sveltekit-modal, showing how easy it is to write Python endpoints in SvelteKit.
+Built for ***Intelligent Svelte***.
 
-See the code for the [example `+server.py` route here](src/routes/api/summarize/%2Bserver.py). You'll see it largely mirrors the SvelteKit built-in [`+server.js`](https://kit.svelte.dev/docs/routing#server)!
+An example SvelteKit project using https://github.com/semicognitive/sveltekit-modal, showing how easy it is to write Python endpoints in SvelteKit.
 
 ## This example 
 - Includes a frontend written in [TailwindCSS](https://tailwindcss.com)
