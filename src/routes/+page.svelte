@@ -5,9 +5,6 @@
     let error: string | undefined;
     let image: string | undefined;
 
-    // Try a good prompt like: An oil painting of a golden retriever
-
-    /* Just an example of how to simply handle an endpoint - your endpoints act just like any other! */
     function api_prompt() {
         loading = true;
         error = undefined;
@@ -45,9 +42,7 @@
         </span>
 
         <span class="flex flex-row space-x-4">
-            {#if error}
-                <span class="my-auto text-red-500">{error}</span>
-            {/if}
+            {#if error}<span class="my-auto text-red-500">{error}</span>{/if}
         </span>
     </form>
 </main>
@@ -69,3 +64,4 @@
         @apply inline-flex items-center rounded-md border border-transparent bg-neutral-800 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2;
     }
 </style>
+
